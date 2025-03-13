@@ -1,0 +1,109 @@
+body {
+    overflow-x: hidden;
+}
+
+.flex { 
+    display: flex;
+}
+
+.page-body{
+    margin-bottom: 60px;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    justify-content: center;
+    width: 100vw;
+}
+
+.title {
+    text-align: center;
+    font-size: x-large;
+    width: 100vw;
+}
+
+.PanelNav {
+    padding-top: 10px;  
+    /* justerer på "link/boks distans fra boks til boksen rundt*/
+    padding-bottom: 10px;   
+    /* padding-top: .1rem;
+    padding-bottom: 0.1rem; */
+    width: 50vw;
+    --tw-bg-opacity: 1;
+    background-color: rgb(65 65 65 / var(--tw-bg-opacity));
+    --tw-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    justify-content: space-evenly;
+    /* border-radius: 5px; */
+}
+
+.NavMain {
+    color: black;
+    background-color: rgb(166, 165, 165);    
+}
+
+.Nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* samme som panelnav, pad,top/bot bare boksen inni link */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    /* Justerer distans mellon hverandre og boks for link trykk */
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: .625rem;
+    display: block;
+}
+
+.TXT {
+    color: white;
+}
+
+.TXT:hover {
+    background-color: rgb(73, 73, 73);    
+}
+
+
+main {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    padding-left: 20vw;
+    padding-right: 10vw;
+}
+
+.content {
+    flex: 3;
+    background-color: rgb(73, 73, 73); 
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);  FJERN ?*/
+    height: 400px; 
+}
+
+.sidebar {
+    flex: 1;
+    background-color: rgb(73, 73, 73); 
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); REMOVE? */
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.footer {
+    position: fixed
+}
+
+
+
+
