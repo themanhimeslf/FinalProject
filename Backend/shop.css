@@ -1,0 +1,12 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px
+}
+
+.cart {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px
+}

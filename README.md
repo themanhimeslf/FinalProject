@@ -1,3 +1,4 @@
 # FinalProject - Tverfaglig prosjekt
 
-I dette prosjektet bruker jeg en Raspberry Pi med Ubuntu Server 24.10
+I dette prosjektet bruker jeg en Raspberry Pi med Ubuntu Server 24.10,
+

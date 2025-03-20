@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../Backend/style.css"> <!-- HUSK Å BYTTE FOR UBUNTU "static/style.css" -->
+    <link rel="stylesheet" href="../Backend/style.css">
+    <link rel="stylesheet" href="../Backend/shop.css"> <!-- HUSK Å BYTTE FOR UBUNTU "static/style.css" -->
 </head>
 
 <body>
@@ -25,20 +26,33 @@
                 </div>
             </div>
 
-
-
             <main>
                 <section class="content">
                     <div>
-                        <time datetime="12-13-2024">12 December 2024</time>
-                        <h2>Full release av serveren</h2>
+                        <h2>test</h2>
 
-                        <div id="items">
-                            <div class="item">
-                              <h3>Product 1</h3>
-                              <p>Price: $10</p>
-                              <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+
+                        <h2>Produkter</h2>
+                        <div id="products">
+                            <div class="product">
+                                <span>Test2 - $10</span>
+                                <button onclick="addToCart('Test2', 10)">Add to Cart</button>
                             </div>
+                            <div class="product">
+                                <span>Test1 - $15</span>
+                                <button onclick="addToCart('Test1', 15)">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <h2>Cart</h2>
+                        <div class="cart" id="cart"></div>
+
+                        <input type="text" id="username" placeholder="Enter your name">
+                        <button onclick="saveCart()">Save Cart</button>
+                        <script src="../Backend/cart.js"></script>
+
+
+
             </main>
 
             <footer class="footer"> KubenAnarchy © 2024. ALV. </footer>
