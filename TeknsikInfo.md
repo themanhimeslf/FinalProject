@@ -12,7 +12,7 @@
 
 
 ## Teknisk
-Brukernavn: admin
+Brukernavn: Administrator
 Passord: Natten14!  
 
 
