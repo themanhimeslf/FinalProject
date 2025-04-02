@@ -1,8 +1,8 @@
-#include <iostream>  // input-output library
+#include <iostream>  // library
 
-using namespace std;  // standard namespace
+using namespace std;  // namespac for whatever the fuck
 
-int main() {
-    cout << "Hello, World!" << endl;  // Print Hello World
-    return 0;  // Return 0 
-}
+int main() { //vetta faen egentelig
+    cout << "Hello, World!" << endl;  // supposed to print it
+    return 0;  // Rhvis funk 0+ // hvis funker gir ut 0/code0
+} 
