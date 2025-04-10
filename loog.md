@@ -24,3 +24,6 @@ Verden -> Kuben IKT nett - > Switch -> switch -> Router -> Server
 
 Folk som er koblet til router nettet kan bruke kubenanarchy.org
 folk utenfor router altså kuben.it og annet kan bruke ipadressen 10.2.3.55
+
+
+Task scheduler, setter opp minecraft, dhcp, ad ds, scripts etc
