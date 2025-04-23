@@ -13,7 +13,6 @@ Info/notater
 
 192.168.0. 0-30 for servere
 
-
 msys shell if closed 
 
 g++/g--/gdb version
@@ -21,37 +20,34 @@ g++/g--/gdb version
 
 ## Teknisk
 Server
+
 Brukernavn: Administrator
-Passord: Natten14!  
+Passord: Gjemt i ENV. fil 
 
 Wifi/Nettverk
 
-- Updates manual for security
-
 Network navn: StemForGratisLunsj
 Passord: Natten13
-Admin: Natten14!
-
-IP-adresser
+Admin: Gjemt i ENV fil
 
 Domain Name	kubenanarchy.org
-Local Server IP	10.2.3.55 (private)
-Local DNS/router	192.168.9.15
-Internal users use the domain, external users use public IP
+Local Server IP:	10.2.3.55 (private)
+Local DNS/router:	192.168.9.15
 
-Nettside IP:    
 
-Inside router har wifi	        DNS resolves kubenanarchy.org to 10.2.3.55	        ✅ Domain works
-Outside router (shared network/kuben it/ hjemme kanskje)	            Must connect to 10.2.3.55 directly              domain wont resolve
+- IP mening
+
+Internal users use the domain, external users use public IP.
+
+Inside router has wifi	        DNS resolves kubenanarchy.org to 10.2.3.55	        Domain works
+Outside router                     Must connect to 10.2.3.55 directly              domain wont resolve
 
 [ Larger Network (shared) ]
           ↓
     [ Your Router - 192.168.9.1 ]
           ↓
-      [ Your LAN ]
-          ↓
-     [ Server - 10.2.3.55 ]
-
+          ├───> Server ( 10.2.3.55) - Minecraft + DNS
+          └───> Raspberry Pi - Website + DNS services
 
 MC-Server
 
