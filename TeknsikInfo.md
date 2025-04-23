@@ -18,6 +18,10 @@ msys shell if closed
 g++/g--/gdb version
 
 
+Kan jeg ha port forwarding på min ruter
+
+
+
 ## Teknisk
 Server
 
@@ -33,6 +37,8 @@ Admin: Gjemt i ENV fil
 Domain Name	kubenanarchy.org
 Local Server IP:	10.2.3.55 (private)
 Local DNS/router:	192.168.9.15
+Raspberry Pi, DNS, WEBSITE:  10.2.3.56
+
 
 
 - IP mening
