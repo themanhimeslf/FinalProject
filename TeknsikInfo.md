@@ -35,9 +35,20 @@ Passord: Natten13
 Admin: Gjemt i ENV fil
 
 Domain Name	kubenanarchy.org
-Local Server IP:	10.2.3.55 (private)
-Local DNS/router:	192.168.9.15
-Raspberry Pi, DNS, WEBSITE:  10.2.3.56
+Local Server IP:   (external to connect server,website)
+internal 192.168.9.15
+backupserver : 192.168.9.34
+
+Local DNS/router:	192.168.9.33 
+Raspberry Pi, DNS, WEBSITE:  10.2.3.56 / 192.168.9.31 /.33
+
+Pi
+sudo nano /etc/dhcpcd.conf
+
+sudo nano /etc/dnsmasq.conf
+
+
+Pi uses 192.168.9.31 as local ip
 
 
 

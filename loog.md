@@ -29,3 +29,21 @@ folk utenfor router altså kuben.it og annet kan bruke ipadressen 10.2.3.55
 Task scheduler, setter opp minecraft, dhcp, ad ds, scripts etc,
 
 gjør ikke det, holder med å sette en raspberry pi med OS lite som skal hoste Nettside og gjøre DNS resolution
+
+DHCP funka ikke, fikk ikke nett, fant ut at tror det var pga DHCP ikke var configured 
+
+måtte lage ny scope for pi på dhcp
+
+----to do
+
+DNS . raspberry pi
+MariaDB pi
+
+McServer 
+Starte den, konnekte til den via external IP, 
+Domene etc
+
+port forwarde den kanskje oduble nat usikker
+
+
+IKKE I RUTER BRUK 10. IPEN
