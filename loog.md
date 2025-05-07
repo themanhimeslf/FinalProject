@@ -47,3 +47,7 @@ port forwarde den kanskje oduble nat usikker
 
 
 IKKE I RUTER BRUK 10. IPEN
+
+vet ikke engang lengre ^^
+
+Noen tokk eller det falt ut, sd kort av Pi må sette det op igjen

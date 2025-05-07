@@ -17,10 +17,7 @@ msys shell if closed
 
 g++/g--/gdb version
 
-
 Kan jeg ha port forwarding på min ruter
-
-
 
 ## Teknisk
 Server
@@ -34,23 +31,36 @@ Network navn: StemForGratisLunsj
 Passord: Natten13
 Admin: Gjemt i ENV fil
 
-Domain Name	kubenanarchy.org
-Local Server IP:   (external to connect server,website)
-internal 192.168.9.15
-backupserver : 192.168.9.34
+Pi change
 
-Local DNS/router:	192.168.9.33 
-Raspberry Pi, DNS, WEBSITE:  10.2.3.56 / 192.168.9.31 /.33
-
-Pi
 sudo nano /etc/dhcpcd.conf
 
 sudo nano /etc/dnsmasq.conf
 
+# IP greier
 
-Pi uses 192.168.9.31 as local ip
+- Windows servere
 
+Main: 192.168.9.15
+Also used as secondary DNS^
+Backup: 192.168.9.34
 
+- Raspberry Pi
+
+Pi, DNS, WEBSITE:  10.2.3.56 
+
+Pi IP: 192.168.9.32
+
+PI DNS: 192.168.9.20
+
+- Usikker
+      Pi uses 192.168.9.31 as local ip - WRONG
+      Local DNS/router:	192.168.9.33 
+      Domain Name	kubenanarchy.org
+      Local Server IP:   (external to connect server,website)
+      internal 192.168.9.15
+      backupserver : 192.168.9.34
+       192.168.9.31 /.33
 
 - IP mening
 
