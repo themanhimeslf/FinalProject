@@ -61,13 +61,17 @@ PI DNS: 192.168.9.20
 - IP mening
 
 Internal users use the domain, external users use public IP.
-[ Larger Network (shared) ]
-          ↓
-    [ Your Router - 192.168.9.1 ]
-          ↓
-          ├───> Server ( 10.2.3.55) - Minecraft + DNS
-          └───> Raspberry Pi - Website + DNS services
 
++rimary DNS	Raspberry Pi (Ubuntu)	192.168.9.20	Runs dnsmasq
+Secondary DNS	Windows Server 2022	192.168.9.15	Also handles DHCP
+DHCP Server	Windows Server 2022	192.168.9.15	Dynamic IP management
+
+Router	      192.168.9.1	      Gateway, DNS Forwarder
+Raspberry Pi	192.168.9.20	Primary DNS
+Raspberry Pi	192.168.9.31	Web Hosting
+Raspberry Pi	192.168.9.37	Dynamic IP (extra)
+Windows Server	192.168.9.15	Minecraft + DHCP + Secondary DNS
+Backup Server	192.168.9.34	Reserve machine
 MC-Server
 
 ## PC-informasjon 
@@ -84,3 +88,5 @@ Hosten en minecraft server med 12 allocated ram, og en nettside.
 
 - Firewall
       Port 22 åpen for SSH.
+
+- MySQL
