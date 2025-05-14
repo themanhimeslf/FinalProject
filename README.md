@@ -26,3 +26,5 @@ Hvis folk bruker IP adressen kan de logge inn på nettsiden og serveren.
 
 Hvis de er tilkoblet nettet kan de bruke domenen til å gjøre det.
 
+
+

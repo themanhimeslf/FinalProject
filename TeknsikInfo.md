@@ -10,6 +10,7 @@
 
 ## Info
 Info/notater
+---
 
 192.168.0. 0-30 for servere
 
@@ -90,3 +91,6 @@ Hosten en minecraft server med 12 allocated ram, og en nettside.
       Port 22 åpen for SSH.
 
 - MySQL
+
+
+## Nyttig
