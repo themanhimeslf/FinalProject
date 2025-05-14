@@ -184,7 +184,9 @@ Guide til å sette opp alt igjen hvis ting blir bricked
 Ubuntu OS RPi 4b 8GB 32GB 
 Either SSH or do it manually/copy paste into terminal 
 
-## 6.1 Minecraft server JAVA
+## 6.1 Minecraft server JAVA  
+
+For mesteparten ubuntu/linux men eula.txt må også justeres
 1. Lag en folder for minecraft serveren (trenger ikke men nyttig)
 
         mkdir ~/minecraft
@@ -204,7 +206,7 @@ Either SSH or do it manually/copy paste into terminal
     Java -jar server.jar
   så
 
-    nano Eula.txt
+    nano Eula.txt     MÅ OGSÅ I WINDOWS
 I eula bytt fra 'false' til 'true'
 så ctrl + s og ctrl + x
 til å lagre og gå ut av nano.
