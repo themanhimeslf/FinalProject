@@ -3,7 +3,7 @@ from mcstatus import JavaServer
 
 app = Flask(__name__)
 
-MINECRAFT_SERVER_IP = "192.168.0.64"  # bytt til server/din ip server ip VIKTIG
+MINECRAFT_SERVER_IP = "192.168.9.0"  # bytt il server/din ip server ip VIKTIG
 MINECRAFT_SERVER_PORT = 25565      # vanlig minecraft port
 
 @app.route("/")

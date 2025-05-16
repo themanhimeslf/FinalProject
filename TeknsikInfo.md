@@ -91,7 +91,7 @@ Hosten en minecraft server med 12 allocated ram, og en nettside.
       Port 22 åpen for SSH.
 
 - MySQL
-
+    Slått av remote login
 
 ## Nyttig
 
