@@ -1,19 +1,30 @@
 # Informasjon om PC, settings, firewall, users, configurations etc
-
+---
 # Start
 - [](#)
 - [Teknisk](#Teknisk)
+- [IP - addresser](#IP)
 - [](#)
 - [](#)
-- [](#)
+  
 ---
 
----
+NOTES
+--
+Pi uses 192.168.9.31 as local ip - WRONG
+      Local DNS/router:	192.168.9.33 
+      Domain Name	kubenanarchy.org
+      Local Server IP:   (external to connect server,website)
+      internal 192.168.9.15
 
-192.168.0. 0-30 for servere
-msys shell if closed 
-g++/g--/gdb version
+backupserver : 192.168.9.34
+       192.168.9.31 /.33
+
+192.168.0. 0-30 for servere,
+msys shell if closed ,
+g++/g--/gdb version,
 Kanjeg ha port forwarding på min ruter
+---
 
 ## Teknisk
 
@@ -31,29 +42,20 @@ Wif-fi / router
       Admin: Gjemt i ENV fil
 
 
-# IP greier
+## IP
 
 - Windows servere
 
-Main: 192.168.9.15
-Also used as secondary DNS^
-Backup: 192.168.9.34
+   Main: 192.168.9.15
+  
+      Also used as secondary DNS^
+- Backup: 192.168.9.34
 
 - Raspberry Pi
-
-Pi IP: 192.168.9.37
-
-PI DNS: 192.168.9.20
-
-- Usikker
-      Pi uses 192.168.9.31 as local ip - WRONG
-      Local DNS/router:	192.168.9.33 
-      Domain Name	kubenanarchy.org
-      Local Server IP:   (external to connect server,website)
-      internal 192.168.9.15
-
-      backupserver : 192.168.9.34
-       192.168.9.31 /.33
+  - Pi IP:
+  -       192.168.9.37
+  - DNS:
+  -       192.168.9.20
 
 - IP mening
 
@@ -73,6 +75,12 @@ MC-Server
 
 
 ## Nyttig
+
+
+
+
+
+
 
 ## MariaDB commands SQL
   - [Database Commands](#database-level-commands)
