@@ -3,18 +3,21 @@
 Dette prosjektet har jeg en Minecraft server og en nettside for det har jeg
 
 # Start
-
-- [Sikkerhet](#Sikkerhet)
+- [Ideer](#Ideer)
 - [Hva jeg bruker](#Komponenter)
-- [](#)
-- [](#)
-- [](#)
+- [Sikkerhet](#Sikkerhet)
+- [FAQ](#FAQ)
 - [](#)
 
   
 - ## Annet
  - [Kilder](#Kilder)
   
+## Ideer
+- Session-baserte innloginger for admin
+- Auto lagre cart via cookies
+
+
 ## Komponenter 
 
 - HP 260 G3 I5 med oppgradert ram til 16GB,
@@ -38,16 +41,25 @@ Basis Ide-en --
 - Hvis folk bruker IP adressen kan de logge inn på nettsiden og serveren.
 - Hvis de er tilkoblet nettet kan de bruke domenen til å gjøre det.
 
+## Sikkerhet
+- Admin passord blir gjemmet
+- "Admin" for nettside blir hashet
+- 
 
 
-### Sikkerhet
+#### Windows Server 22
 
-- Passord
-      BLir gjemt i ENV. fil
-      Hvis de ikker er viktige blir de vist public, nettverk osv.
+      Fysisk i fare
+      Ikke digitalt i fare
 
-- Firewall
+#### Firewall RaspberryPI
+
       Port 22 åpen for SSH.
 
-- MySQL
+#### MariaDB
+
     Slått av remote login
+
+
+
+## FAQ
