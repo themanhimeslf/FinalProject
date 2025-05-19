@@ -24,6 +24,7 @@ backupserver : 192.168.9.34
 msys shell if closed ,
 g++/g--/gdb version,
 Kanjeg ha port forwarding på min ruter
+
 ---
 
 ## Teknisk
