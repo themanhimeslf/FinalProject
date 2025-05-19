@@ -1,14 +1,14 @@
 # Informasjon om PC, settings, firewall, users, configurations etc
----
-# Start
-- [](#)
+
+<br>
+
+# LEGEND
+
 - [Teknisk](#Teknisk)
 - [IP - addresser](#IP)
 - [](#)
 - [](#)
   
----
-
 NOTES
 --
 Pi uses 192.168.9.31 as local ip - WRONG
@@ -25,7 +25,7 @@ msys shell if closed ,
 g++/g--/gdb version,
 Kanjeg ha port forwarding på min ruter
 
----
+
 
 ## Teknisk
 
@@ -58,7 +58,7 @@ Wif-fi / router
   - DNS:
   -       192.168.9.20
 
-- IP mening
+- IP Legend
 
 Internal users use the domain, external users use public IP.
 

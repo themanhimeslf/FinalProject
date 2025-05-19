@@ -7,7 +7,7 @@ Dette prosjektet har jeg en Minecraft server og en nettside for det har jeg
 - [Hva jeg bruker](#Komponenter)
 - [Sikkerhet](#Sikkerhet)
 - [FAQ](#FAQ)
-- [](#)
+- [MVP](#MVP)
 
   
 - ## Annet
@@ -63,3 +63,17 @@ Basis Ide-en --
 
 
 ## FAQ
+
+
+## MVP
+
+- Nettside - Som man kan tilkoble via IP ved riktig ruter
+- Ruter - som fungerer
+- Windows server 22 - Med DHCP, DNS
+- Raspberry Pi - DNS, Nettsidehosting.
+- Minecraft server ved WS22 som man kan tilkoble via IP og playercount
+
+Nice to have
+ - Rasppery pi Database
+ - Windows server 22 som ekstra backup
+ - 

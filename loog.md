@@ -51,3 +51,26 @@ IKKE I RUTER BRUK 10. IPEN
 vet ikke engang lengre ^^
 
 Noen tokk eller det falt ut, sd kort av Pi må sette det op igjen
+
+
+19/05
+
+En eller annen hokus pokus har greid å fjernet strømmen til raspberry pi og windows serverene mine og hele stikkkontakten
+så jeg må mest sanssyneligvis starte fra scratch på raspbery pi
+men jeg tror jeg kan clutche
+
+Må bare
+
+Opdattere PI
+
+Installere Waitress, Python,  og flask?
+og så mariadb 
+
+må jeg putte query.py for å see playercounter til minecraft server
+der hvor nettsiden er i raspberrypi i forhold til hvor windowsserveren er 
+siden den bruker IP og port til å søke server for spillerer
+
+Git clone alle filene
+
+
+
