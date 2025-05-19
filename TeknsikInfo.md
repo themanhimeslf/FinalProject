@@ -1,26 +1,22 @@
 # Informasjon om PC, settings, firewall, users, configurations etc
 
 # Start
-- [Info](#Info)
-- [Pc-informasjon](#Pc-informasjon)
+- [](#)
 - [Teknisk](#Teknisk)
-- [Sikkerhet](#sikkerhet)
-
+- [](#)
+- [](#)
+- [](#)
 ---
 
-## Info
-Info/notater
 ---
 
 192.168.0. 0-30 for servere
-
 msys shell if closed 
-
 g++/g--/gdb version
-
-Kan jeg ha port forwarding på min ruter
+Kanjeg ha port forwarding på min ruter
 
 ## Teknisk
+
 Server
       Brukernavn: Administrator
       Passord: Gjemt i ENV. fil 
@@ -72,26 +68,9 @@ Raspberry Pi	192.168.9.20	Primary DNS
 Raspberry Pi	192.168.9.31	Web Hosting
 Raspberry Pi	192.168.9.37	Dynamic IP (extra)
 Windows Server	192.168.9.15	Minecraft + DHCP + Secondary DNS
-Backup Server	192.168.9.34	Reserve machine
+Backup Server	192.168.9.34	Reserve 1maskin
 MC-Server
 
-## PC-informasjon 
-
-HP 260 G3 I5, 16 GB RAMN.
-Hosten en minecraft server med 12 allocated ram, og en nettside.
-
-
-## Sikkerhet
-
-- Passord
-      BLir gjemt i ENV. fil
-      Hvis de ikker er viktige blir de vist public, nettverk osv.
-
-- Firewall
-      Port 22 åpen for SSH.
-
-- MySQL
-    Slått av remote login
 
 ## Nyttig
 
