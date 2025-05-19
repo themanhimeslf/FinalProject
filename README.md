@@ -4,10 +4,15 @@ Dette prosjektet har jeg en Minecraft server og en nettside for det har jeg
 
 # Start
 
-- [Sikkerhet](#sikkerhet)
+- [Sikkerhet](#Sikkerhet)
 - [Hva jeg bruker](#Komponenter)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
 
-# Other
+  
+- ## Annet
  - [Kilder](#Kilder)
   
 ## Komponenter 
@@ -16,7 +21,7 @@ Dette prosjektet har jeg en Minecraft server og en nettside for det har jeg
 - HP 260 G3 I5,
 - Raspberry Pi 4,
 - Ruter.
-    ## Digitalt
+    ### Digitalt
   - Minecraft server, Nettside,
   - HTML & CSS, Python, Flask, Javaskript,
   - DNS, AD DS, DHCP
@@ -24,19 +29,18 @@ Dette prosjektet har jeg en Minecraft server og en nettside for det har jeg
   - Scripts og annet kode.
 
 Hva komponentene brukes til --
-
-HP 260 – Host for Minecraft-server, AD DS, DHCP og potensielt nettsiden,
-Raspberry Pi – DNS og muligens også host for nettsiden,
-Ruter – Internett-tilkobling, port forwarding og brannmur.
+- HP 260 – Host for Minecraft-server, AD DS, DHCP og potensielt nettsiden,
+- Andre HP 260 - Backup
+- Raspberry Pi – DNS og muligens også host for nettsiden,
+- Ruter – Internett-tilkobling, port forwarding og brannmur.
 
 Basis Ide-en --
-
-Hvis folk bruker IP adressen kan de logge inn på nettsiden og serveren.
-Hvis de er tilkoblet nettet kan de bruke domenen til å gjøre det.
-
+- Hvis folk bruker IP adressen kan de logge inn på nettsiden og serveren.
+- Hvis de er tilkoblet nettet kan de bruke domenen til å gjøre det.
 
 
-## Sikkerhet
+
+### Sikkerhet
 
 - Passord
       BLir gjemt i ENV. fil
