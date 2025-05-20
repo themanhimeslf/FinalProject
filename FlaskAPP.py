@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect
 from waitress import serve
-
+from query import get_player_count
 
 import logging
 
@@ -14,6 +14,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def slash():
+    players = get_player_count()
     return redirect("/index")
 
 @app.route("/index")
