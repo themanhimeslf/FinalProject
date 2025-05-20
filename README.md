@@ -48,22 +48,36 @@ Basis Ide-en --
 
 
 #### Windows Server 22
-
-      Fysisk i fare
-      Ikke digitalt i fare
-
-#### Firewall RaspberryPI
+| Risiko              | Beskrivelse                                | Sannsynlighet | Konsekvens | Tiltak                               |
+| ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
+| Fysisk tilgang      | Serveren står fysisk tilgjengelig men låst, strøm kan bli skrudd av | Middels       | Høy        | Lås serverrom. |
+| Digitalt | Ingen kjente digitale angrepsoverflater    | Lav           | Lav        | Overvåk systemet generelt, task manager            |
+| ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
+#### RaspberryPI
 
       Port 22 åpen for SSH.
+      2556 åpen
+| Risiko              | Beskrivelse                                | Sannsynlighet | Konsekvens | Tiltak                               |
+| ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
+| Fysisk tilgang      | Noen tar SSD, skruv av strøm osv | Middels       | Høy        | Ikke så mye  |
 
 #### MariaDB
 
     Slått av remote login
-
+| Risiko              | Beskrivelse                                | Sannsynlighet | Konsekvens | Tiltak                               |
+| ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
+| Digitalt via nettside | SQL inject via forms på nettside | Lav | Høy | Har ikke noe til å injecte med |
 
 
 ## FAQ
+Hva gjøres med data og 
+-  iforhold til at systemene er i Norge, følger vi Norsk lov og under personvernsloven (GDPR). Lagres informasjon på trygt og sikret ved gjeldende standarder for datasikkerhet og personvern.    
 
+Kan jeg bruke kode eller noe annet i dette prosjektet
+- Ja, dette prosjektet kan brukes fritt, men krever at du krediterer meg som opphavsperson.
+
+Hvem kontakter jeg ved problemer?
+- Send melding på [Github profilen min](https://github.com/themanhimeslf)
 
 ## MVP
 
