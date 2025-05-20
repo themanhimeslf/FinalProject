@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect
 from waitress import serve
-from query import get_player_count
+# from query import get_player_count
 
 import logging
 
@@ -14,12 +14,14 @@ app = Flask(__name__)
 
 @app.route("/")
 def slash():
-    players = get_player_count()
+   # players = get_player_count()
     return redirect("/index")
 
 @app.route("/index")
 def root():
     return render_template('index.html')
+
+
 
 @app.route("/shop")
 def Shop():
@@ -32,7 +34,11 @@ def Mod():
 @app.route("/about")
 def About():
     return render_template("about.html")
-print("or localhost 8080")
+
+@app.route("/adminlogin")
+def adminlogin():
+    return render_template("adminlogin.html")
+
 
 if __name__ == '__main__':
-    serve(app, host='0.0.0.0', port=8080)
+    app.run( host='0.0.0.0', port=8080)

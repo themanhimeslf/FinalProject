@@ -67,8 +67,8 @@ Secondary DNS	Windows Server 2022	192.168.9.15	Also handles DHCP
 DHCP Server	Windows Server 2022	192.168.9.15	Dynamic IP management
 
 Router	      192.168.9.1	      Gateway, DNS Forwarder
-Raspberry Pi	192.168.9.20	Primary DNS
-Raspberry Pi	192.168.9.31	Web Hosting
+Raspberry Pi	192.168.9.20	Primary DNS/hosting
+Raspberry Pi	192.168.9.31	N/A
 Raspberry Pi	192.168.9.37	Dynamic IP (extra)
 Windows Server	192.168.9.15	Minecraft + DHCP + Secondary DNS
 Backup Server	192.168.9.34	Reserve 1maskin
