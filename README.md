@@ -1,25 +1,36 @@
 # FinalProject - Tverfaglig prosjekt
 
-Dette prosjektet har jeg en Minecraft server og en nettside for det har jeg
+Ideen til dette prosjektet er, en nettside, minecraft server, og på nettsiden kan du logge inn som admin og legge ut ting på en form "news" for hva vi bruker referer til [dette](#Komponenter) og [MVP](#MVP) ved hvordan tankeprossesen min var og hva som har endret seg referer til "loog.md"
 
 # Start
-- [Ideer](#Ideer)
+- [MVP](#MVP)
 - [Hva jeg bruker](#Komponenter)
 - [Sikkerhet](#Sikkerhet)
 - [FAQ](#FAQ)
-- [MVP](#MVP)
+  - #### Annet
+      - [Kilder](#Kilder)
 
-  
-- ## Annet
- - [Kilder](#Kilder)
-  
-## Ideer
-- Session-baserte innloginger for admin
-- Auto lagre cart via cookies
 
+
+
+
+
+## MVP
+
+- Nettside - Som man kan tilkoble via IP
+- Ruter - som fungerer
+- Windows server 22 - Med DHCP, DNS
+- Raspberry Pi - DNS, Nettsidehosting.
+- Minecraft server ved WS22 som man kan tilkoble via IP 
+
+Nice to have
+ - Rasppery pi Database
+ - Windows server 22 som ekstra backup
+ - Koble til via domain
+ - Logge in som admin via mariadb
+ - 
 
 ## Komponenter 
-
 - HP 260 G3 I5 med oppgradert ram til 16GB,
 - HP 260 G3 I5,
 - Raspberry Pi 4,
@@ -36,10 +47,6 @@ Hva komponentene brukes til --
 - Andre HP 260 - Backup
 - Raspberry Pi – DNS og muligens også host for nettsiden,
 - Ruter – Internett-tilkobling, port forwarding og brannmur.
-
-Basis Ide-en --
-- Hvis folk bruker IP adressen kan de logge inn på nettsiden og serveren.
-- Hvis de er tilkoblet nettet kan de bruke domenen til å gjøre det.
 
 ## Sikkerhet
 - Admin passord blir gjemmet
@@ -78,16 +85,3 @@ Kan jeg bruke kode eller noe annet i dette prosjektet
 
 Hvem kontakter jeg ved problemer?
 - Send melding på [Github profilen min](https://github.com/themanhimeslf)
-
-## MVP
-
-- Nettside - Som man kan tilkoble via IP ved riktig ruter
-- Ruter - som fungerer
-- Windows server 22 - Med DHCP, DNS
-- Raspberry Pi - DNS, Nettsidehosting.
-- Minecraft server ved WS22 som man kan tilkoble via IP og playercount
-
-Nice to have
- - Rasppery pi Database
- - Windows server 22 som ekstra backup
- - 

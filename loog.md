@@ -1,4 +1,5 @@
-Bare til å vise problem og problemlæsning
+# Logg for "FinalProject"
+### OBS, Dette er ikke sortert, men er fra start til hvor jeg er nå, vær OBS på at det er ikke pent språkbruk
 
 når jeg satt opp se router
 

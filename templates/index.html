@@ -16,9 +16,6 @@
             <div class="title">
                 <h1>Kuben Anarchy</h1>
             </div>
-            
-            <a href="/adminlogin" class="NavMain Nav">ADMINLOGIN</a>
-            
 
             <div class="wrapper flex">
                 <div class="PanelNav flex">
@@ -51,12 +48,13 @@
                             modifikasjoner</p>
                         <p><strong>{{ players }} Playing right now</strong></p> <!-- henter data fra query.py -->
                         <p>Click the IP address below to copy:</p>
-<!--  -->
+                        <!--  -->
                         <div>
                             <button onclick="copyToClipboard('IP HER')">192.301.999.0</button> <!-- PUT IP TIL SERVEREN HER  -->
                             <script src="../static/clipboard.js"></script>
                         </div>
-
+                        
+                        <a href="/adminlogin" class="server-info">ADMINLOGIN</a>
                     </div>
                 </aside>
             </main>
