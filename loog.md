@@ -78,3 +78,7 @@ Git clone alle filene
 add til sikkerhet
     At noen eller noe skjer med raspberry pi en min
     har blitt fucket med 2+ så langt og fucket meg over
+
+
+source venv/bin/activate
+for venv actikever

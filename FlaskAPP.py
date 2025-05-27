@@ -19,8 +19,7 @@ def slash():
 @app.route("/index")
 def root():
     players = get_player_count()
-    ip = "192.168.9.15"
-    return render_template('index.html', players=players, ip=ip)
+    return render_template('index.html', players=players)
 
 
 
@@ -44,4 +43,4 @@ def adminlogin():
 
 
 if __name__ == '__main__':
-    app.run( host='0.0.0.0', port=8080)
+    app.run( host='0.0.0.0', port=80)
