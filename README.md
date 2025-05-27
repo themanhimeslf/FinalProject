@@ -9,14 +9,8 @@ Ideen til dette prosjektet er, en nettside, minecraft server, og på nettsiden k
 - [FAQ](#FAQ)
   - #### Annet
       - [Kilder](#Kilder)
-
-
-
-
-
-
+ 
 ## MVP
-
 - Nettside - Som man kan tilkoble via IP
 - Ruter - som fungerer
 - Windows server 22 - Med DHCP, DNS

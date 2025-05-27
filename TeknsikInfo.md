@@ -54,7 +54,7 @@ Wif-fi / router
 
 - Raspberry Pi
   - Pi IP:
-  -       192.168.9.37
+  -       192.168.9.37/20
   - DNS:
   -       192.168.9.20
 
