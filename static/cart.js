@@ -24,6 +24,5 @@ function saveCart() {
         alert("Put inn navnet ditt før du lagrer :).");
         return;
     }
-    localStorage.setItem(username, JSON.stringify(cart));
     alert("Lagret");
 }

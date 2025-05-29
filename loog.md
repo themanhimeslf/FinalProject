@@ -80,5 +80,13 @@ add til sikkerhet
     har blitt fucket med 2+ så langt og fucket meg over
 
 
+python3 -m venv venv
+
 source venv/bin/activate
 for venv actikever
+
+pip install waitress
+
+    pip install flask
+
+pip install mcstatus

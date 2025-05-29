@@ -21,21 +21,17 @@ def root():
     players = get_player_count()
     return render_template('index.html', players=players)
 
-
-
-
-
 @app.route("/shop")
 def Shop():
     return render_template('shop.html')
 
 @app.route('/modissues')
 def Mod():
-    return render_template("modissues.html")
+    return render_template("ModIssues.html")
 
 @app.route("/about")
 def About():
-    return render_template("about.html")
+    return render_template("About.html")
 
 @app.route("/adminlogin")
 def adminlogin():

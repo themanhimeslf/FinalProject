@@ -51,7 +51,7 @@
                         <!--  -->
                         <div>
                             <button onclick="copyToClipboard('192.168.9.15')">192.168.9.15</button> <!-- PUT IP TIL SERVEREN HER  -->
-                            <script src="../static/clipboard.js"></script>
+                            <script src="{{ url_for('static', filename='clipboard.js') }}"></script>
                         </div>
                         
                         <a href="/adminlogin" class="server-info">ADMINLOGIN</a>
