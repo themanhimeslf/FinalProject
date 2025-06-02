@@ -169,6 +169,12 @@ for venv actikever
 
 pip install waitress
 
-    pip install flask
+ pip install flask
 
 pip install mcstatus
+
+pip install mysql-connector-python
+
+pip install dotenv
+
+sudo ./venv/bin/python3 FlaskAPP.py

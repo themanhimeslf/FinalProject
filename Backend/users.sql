@@ -12,6 +12,6 @@ CREATE TABLE IF NOT EXISTS ADMIN (
 
 -- Example admin insert (for testing)
 INSERT INTO ADMIN (AdminUSR, AdminID, AdminPS)
-VALUES ('ADMIN1', 'AD101', '008777cd530a0a1841a7ece0a0d8c6ffb565de517a5429d95abaa621453c799a');
+VALUES ('ADMIN1', 'AD101', 'secret hashed');
 -- bytt imkuben med noe bedre
 -- flask route or manual insertsssss

@@ -41,7 +41,7 @@ def adminlogin():
         password = request.form["password"]
 
         # hasher passordet
-        hashed_password = hashlib.sha256(password.encode()).hexdigest()
+        hashed_password = hashlib.sha256(password.encode()).digest()
 
         # sjekk db
         conn = connect_to_database()
