@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, session, url_for, request
 from waitress import serve
 from query import get_player_count
-from db_connect import connect_to_database
+from databaseconnection import *
 import hashlib
 import logging
 
