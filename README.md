@@ -173,7 +173,7 @@ for venv actikever
 
 pip install waitress
 
- pip install flask
+pip install flask
 
 pip install mcstatus
 

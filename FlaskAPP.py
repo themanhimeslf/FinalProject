@@ -53,17 +53,17 @@ def adminlogin():
 
         if admin:
             # Ssave sesion redirect?
-            return redirect("/adminpage")  # adminpge
+            return redirect("/adminpanel")  # adminpge
         else:
             return "Login failed", 401
 
     return render_template("adminlogin.html")
 
-@app.route("/adminpage")
+@app.route("/adminpanel")
 def admin_page():
     if not session.get('admin_logged_in'):
         return redirect("/adminlogin")
-    return render_template("adminpage.html", admin_id=session['admin_id'])
+    return render_template("adminpanel.html", admin_id=session['admin_id'])
 
 
 
