@@ -77,6 +77,9 @@ MC-Server
 
 ## Nyttig
 
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+
+
 
 
 
@@ -100,6 +103,8 @@ Relevant CMDS
  show privs
 
     show grants;
+show users
+  SELECT User, Host FROM mysql.user;
 
 Stop DB
 
@@ -166,13 +171,15 @@ sudo systemctl restart mysql
 
     DELETE FROM table_name;
 
+
+
 ## 6. Minecraft
 Guide til å sette opp alt igjen hvis ting blir bricked
 
 Ubuntu OS RPi 4b 8GB 32GB 
 Either SSH or do it manually/copy paste into terminal 
 
-## 6.1 Minecraft server JAVA  
+## 6.1 Minecraft server JAVA 
 
 For mesteparten ubuntu/linux men eula.txt må også justeres
 1. Lag en folder for minecraft serveren (trenger ikke men nyttig)

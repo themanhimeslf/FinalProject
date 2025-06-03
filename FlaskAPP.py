@@ -61,10 +61,10 @@ def adminlogin():
 
 @app.route("/adminpage")
 def admin_page():
-    if admin:
-        session['admin_logged_in'] = True
-        session['admin_id'] = admin['AdminID']
-        return redirect("/adminpage")
+    if not session.get('admin_logged_in'):
+        return redirect("/adminlogin")
+    return render_template("adminpage.html", admin_id=session['admin_id'])
+
 
 
 

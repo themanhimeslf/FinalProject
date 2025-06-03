@@ -80,6 +80,10 @@ Kan jeg bruke kode eller noe annet i dette prosjektet
 Hvem kontakter jeg ved problemer?
 - Send melding på [Github profilen min](https://github.com/themanhimeslf)
 
+
+
+
+
 # Logg for "FinalProject"
 ### OBS, Dette er ikke sortert, men er fra start til hvor jeg er nå, vær OBS på at det er ikke pent språkbruk
 
