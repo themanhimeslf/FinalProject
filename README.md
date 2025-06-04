@@ -185,3 +185,4 @@ pip install mysql-connector-python
 pip install dotenv
 
 sudo ./venv/bin/python3 FlaskAPP.py
+hvis ikke vanlig py .py funker

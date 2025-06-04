@@ -77,17 +77,18 @@ MC-Server
 EXTERNAL IP 10.2.3.55
 also use to ssh if kuven.it
 
+PORTER
+
+3306
+80
+443
+433
+22 - ssh
+
 
 ## Nyttig
 
 
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y curl vim git
-
-
-sudo apt install -y dnsmasq
-
-sudo nano /etc/dnsmasq.conf
 
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 
@@ -110,15 +111,43 @@ sudo systemctl enable NAME
 Relevant CMDs
 ---
 
+Setup for most  nothing -> wifi/ip bare hvis du har lik dhcp på annen server
+    sudo apt update && sudo apt upgrade -y
+&
+    sudo apt install -y curl vim git && sudo apt install -y dnsmasq
+&
+    sudo nano /etc/dnsmasq.conf
+bytt settings til de premade i forhold til dhcp
 
+Installer brannmur
+    sudo apt install ufw
+
+sudo apt install -y python3 python3-pip
+
+Nå har du DNS, og python3/pip
+
+other cmds
 Hash
   echo -n "passord ditt" | sha256sum
 
+  imkuben1337! f2d8ad68f2f9f84da8d9bac3b240e06ccb1a8932767aea11435115519ee78633 
 
+mariadb quick startup-
+    sudo apt install -y mariadb-server mariadb-client
+så
+    sudo mysql_secure_installation
+Hvis du ikke kan det gjør dette
+Set root password
+    ALTER USER 'root'@'localhost' IDENTIFIED BY 'your_secure_password';
 
+slett anonymouse users
+     DELETE FROM mysql.user WHERE User = '';
 
+slett test databaser
+DROP DATABASE IF EXISTS test;
+DELETE FROM mysql.db WHERE Db = 'test' OR Db LIKE 'test\\_%';
 
- Access mariaDB
+ gå in mariaDB
 
     mariadb -u root -p
  show privs

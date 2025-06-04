@@ -53,6 +53,7 @@ def adminlogin():
         conn.close()
 
         if admin:
+            session['admin_logged_in'] = True
             return redirect("/adminpanel")  # adminpge
         else:
             return "Login failed", 401
