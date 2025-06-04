@@ -12,6 +12,7 @@ logging.getLogger('waitress').setLevel(logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
+app.secret_key = "hemmelig123"
 
 @app.route("/")
 def slash():
@@ -37,22 +38,21 @@ def About():
 @app.route("/adminlogin", methods=["GET", "POST"])
 def adminlogin():
     if request.method == "POST":
-        admin_id = request.form["adminid"]
-        password = request.form["password"]
+        admin_id = request.form["AdminID"]
+        AdminPS = request.form["AdminPS"]
 
         # hasher passordet
-        hashed_password = hashlib.sha256(password.encode()).digest()
+        hashed_AdminPS = hashlib.sha256(AdminPS.encode()).hexdigest() # bytt fra hex?
 
         # sjekk db
         conn = connect_to_database()
         cursor = conn.cursor(dictionary=True)
-        cursor.execute("SELECT * FROM ADMIN WHERE AdminID = %s AND AdminPS = %s", (admin_id, hashed_password))
+        cursor.execute("SELECT * FROM ADMIN WHERE AdminID = %s AND AdminPS = %s", (admin_id, hashed_AdminPS))
         admin = cursor.fetchone()
         cursor.close()
         conn.close()
 
         if admin:
-            # Ssave sesion redirect?
             return redirect("/adminpanel")  # adminpge
         else:
             return "Login failed", 401

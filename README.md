@@ -1,7 +1,6 @@
 # FinalProject - Tverfaglig prosjekt
 
-Ideen til dette prosjektet er, en nettside, minecraft server, og på nettsiden kan du logge inn som admin og legge ut ting på en form "news" for hva vi bruker referer til [dette](#Komponenter) og [MVP](#MVP) ved hvordan tankeprossesen min var og hva som har endret seg referer til "loog.md"
-
+Dette prosjektet har en nettside og en minecraft server, som går på en windows server for minecraft, DHCP, Secondary DNS og en raspberry pi for website hosting og "Primairy DNS". For å se hvilken spesifike komponenter jeg bruker referer til [dette](#Komponenter) og [MVP](#MVP), for sikkerhet se [her](#sikkerhet)
 # Start
 - [MVP](#MVP)
 - [Hva jeg bruker](#Komponenter)
@@ -53,7 +52,8 @@ Hva komponentene brukes til --
 | ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
 | Fysisk tilgang      | Serveren står fysisk tilgjengelig men låst, strøm kan bli skrudd av | Middels       | Høy        | Lås serverrom. |
 | Digitalt | Ingen kjente digitale angrepsoverflater    | Lav           | Lav        | Overvåk systemet generelt, task manager            |
-| ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
+| 1 | 2 | 3 | 4 | 5 |
+| 1 | 2 | 3 | 4 | 5 |
 #### RaspberryPI
 
       Port 22 åpen for SSH.
@@ -61,21 +61,23 @@ Hva komponentene brukes til --
 | Risiko              | Beskrivelse                                | Sannsynlighet | Konsekvens | Tiltak                               |
 | ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
 | Fysisk tilgang      | Noen tar SSD, skruv av strøm osv | Middels       | Høy        | Ikke så mye  |
+| 1 | 2 | 3 | 4 | 5 |
+| 1 | 2 | 3 | 4 | 5 |
 
 #### MariaDB
 
     Slått av remote login
 | Risiko              | Beskrivelse                                | Sannsynlighet | Konsekvens | Tiltak                               |
 | ------------------- | ------------------------------------------ | ------------- | ---------- | ------------------------------------ |
-| Digitalt via nettside | SQL inject via forms på nettside | Lav | Høy | Har ikke noe til å injecte med |
-
-
+| Digitalt via nettside | SQL inject via forms på nettside | Lav | Middels | N/A |
+| 1 | 2 | 3 | 4 | 5 |
+| 1 | 2 | 3 | 4 | 5 |
 ## FAQ
 Hva gjøres med data og 
 -  iforhold til at systemene er i Norge, følger vi Norsk lov og under personvernsloven (GDPR). Lagres informasjon på trygt og sikret ved gjeldende standarder for datasikkerhet og personvern.    
 
 Kan jeg bruke kode eller noe annet i dette prosjektet
-- Ja, dette prosjektet kan brukes fritt, men krever at du krediterer meg som opphavsperson.
+- Ja, dette prosjektet kan brukes fritt, men krav at du krediterer meg.
 
 Hvem kontakter jeg ved problemer?
 - Send melding på [Github profilen min](https://github.com/themanhimeslf)

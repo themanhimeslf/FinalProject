@@ -4,4 +4,4 @@ function copyToClipboard(text) {
     }).catch(err => {
         console.error("Failed to copy: ", err);
     });
-}
+// }  ØDELAGT VET IKKE HVORFOR IKKE FUNKER PÅ WEBSITE HOSTED PÅ PI, FIKS?
