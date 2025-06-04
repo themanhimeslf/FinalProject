@@ -1,6 +1,6 @@
 # FinalProject - Tverfaglig prosjekt
 
-Dette prosjektet har en nettside og en minecraft server, som går på en windows server for minecraft, DHCP, Secondary DNS og en raspberry pi for website hosting og "Primairy DNS". For å se hvilken spesifike komponenter jeg bruker referer til [dette](#Komponenter) og [MVP](#MVP), for sikkerhet se [her](#sikkerhet)
+Dette prosjektet tar bruk av en nettside og en minecraft server, som går på en windows server for minecraft, DHCP, Secondary DNS og en raspberry pi for website hosting og "Primairy DNS". For å se hvilken spesifike komponenter jeg bruker referer til [dette](#Komponenter) og [MVP](#MVP), for sikkerhet se [her](#sikkerhet)
 # Start
 - [MVP](#MVP)
 - [Hva jeg bruker](#Komponenter)
