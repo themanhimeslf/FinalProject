@@ -74,12 +74,25 @@ Windows Server	192.168.9.15	Minecraft + DHCP + Secondary DNS
 Backup Server	192.168.9.34	Reserve 1maskin
 MC-Server
 
+EXTERNAL IP 10.2.3.55
+also use to ssh if kuven.it
+
 
 ## Nyttig
 
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y curl vim git
+
+
+sudo apt install -y dnsmasq
+
+sudo nano /etc/dnsmasq.conf
+
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 
-
+sudo systemctl restart NAME
+sudo systemctl enable NAME
 
 
 
@@ -94,8 +107,16 @@ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
       - [](#)
     
 
-Relevant CMDS
+Relevant CMDs
 ---
+
+
+Hash
+  echo -n "passord ditt" | sha256sum
+
+
+
+
 
  Access mariaDB
 
