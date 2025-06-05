@@ -35,17 +35,19 @@ def Mod():
 def About():
     return render_template("About.html")
 
-@app.route("/adminlogin", methods=["GET", "POST"])
+@app.route("/adminlogin", methods=["GET", "POST"]) # som var lagrer url etc
 def adminlogin():
     if request.method == "POST":
-        admin_id = request.form["AdminID"]
+        admin_id_check = request.form["AdminID"]
         AdminPS = request.form["AdminPS"]
+
+        admin_id = admin_id_check #bare
 
         # hasher passordet
         hashed_AdminPS = hashlib.sha256(AdminPS.encode()).hexdigest() # bytt fra hex?
 
         # sjekk db
-        conn = connect_to_database()
+        conn = connect_to_database() #tulleri med database
         cursor = conn.cursor(dictionary=True)
         cursor.execute("SELECT * FROM ADMIN WHERE AdminID = %s AND AdminPS = %s", (admin_id, hashed_AdminPS))
         admin = cursor.fetchone()
@@ -54,6 +56,7 @@ def adminlogin():
 
         if admin:
             session['admin_logged_in'] = True
+            session['admin_id'] = admin_id
             return redirect("/adminpanel")  # adminpge
         else:
             return "Login failed", 401

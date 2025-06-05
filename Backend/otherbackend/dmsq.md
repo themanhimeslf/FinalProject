@@ -1,12 +1,14 @@
-# Forward DNS queries to external DNS (like Google)
-server=8.8.8.8
+listen-address=192.168.9.20
+# only answer queries on pi dns ip
+no-resolv
+server=192.168.9.20
+server=192.168.9.15
 
-# Listen on your Pi's IP
-listen-address=127.0.0.1,192.168.9.20
-
-# Optional: Set domain
-domain=kubenanarchy.org
-
-# Add static DNS records
+#sens queries to dns servers google etc
+strict-order
+# ignore other idrectives other dns setings
+address=/kubenanarchy.org/192.168.9.20
+address=/www.kubenanarchy.org/192.168.9.20
 address=/mc.kubenanarchy.org/192.168.9.15
-address=/www.kubenanarchy.org/192.168.9.31
+
+sudo nano /etc/dnsmasq.conf
