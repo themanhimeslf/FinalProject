@@ -130,7 +130,7 @@ other cmds
 Hash
   echo -n "passord ditt" | sha256sum
 
-  imkuben1337! f2d8ad68f2f9f84da8d9bac3b240e06ccb1a8932767aea11435115519ee78633 
+  echo -n "IMKuben1337!" | sha256sum f2d8ad68f2f9f84da8d9bac3b240e06ccb1a8932767aea11435115519ee78633  - test example
 
 mariadb quick startup-
     sudo apt install -y mariadb-server mariadb-client
@@ -138,8 +138,8 @@ så
     sudo mysql_secure_installation
 Hvis du ikke kan det gjør dette
 Set root password
-    ALTER USER 'root'@'localhost' IDENTIFIED BY 'your_secure_password';
-
+    ALTER USER 'root'@'localhost' IDENTIFIED BY 'passord';
+ 
 slett anonymouse users
      DELETE FROM mysql.user WHERE User = '';
 
